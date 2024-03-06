@@ -1,0 +1,9 @@
+
+<div>
+
+    <div *ngFor="let classe of dati" class="card" (click)="onClickVisualizzaDettaglio(classe)">
+        <p>classe: {{ classe.classe}} {{classe.sezione}}</p>
+        <p>Rappresentante: {{ classe.nomeRappresentante}}</p>
+
+    </div>
+</div>
